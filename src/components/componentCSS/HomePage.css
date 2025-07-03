@@ -24,17 +24,28 @@
   height: auto;
   border-radius: 5px;
   margin-bottom: 2rem;
+  margin-top:-5rem;
 }
 
 .name {
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
 }
+
+
 
 .role {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
+
+
+.location {
+  font-size: 1rem;
+  font-weight: 1000;
+}
+
 
 .email-button {
   background-color: #94c4ff;
@@ -53,7 +64,7 @@
 
 /* Right side (bio and links) */
 .home-right {
-  background-color: #deedff;
+  background-color: #bfdafb;
   flex: 1;
   padding: 3rem;
   display: flex;
@@ -61,11 +72,21 @@
   justify-content: right;
   
 }
+.profile-pic {
+  width: 1000px; /* or try 300px or more depending on what "scale up" means to you */
+  height: 1000px; /* maintain aspect ratio */
+}
 
 .Hello-title{
   font-size: 5rem;
   margin-top: 8rem;
+  transition: color 0.3s ease;
 }
+
+.Hello-title:hover {
+  color: #007bff !important;
+}
+
 
 .about-title {
   font-size: 1.2rem;
@@ -85,6 +106,7 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 10rem;
+  margin-top: 2rem;
 }
 
 .social-icons a {
@@ -92,10 +114,9 @@
   color: black;
   margin-right: 1rem;
   justify-content: center;
-
   transition: color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #555;
+  color: #70abff;
 }
