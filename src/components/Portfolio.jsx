@@ -46,39 +46,6 @@ const Portfolio = () => {
       </Row>
 
 
-      <Row>
-      
-        <Col md={6}>
-          <div className="painting">
-            <img
-              src="LukeSkyWalker.PNG"
-              alt="Augustine Jacob"
-              style={{
-                width: "80%",    
-                height: "auto",
-                
-              }}
-            />
-            
-          </div>
-
-
-        </Col>
-        <Col md={6}>
-          <div className="rightside">
-            <div className = "artTitle"> Luke Skywalker </div>
-            <Card className ="card">
-              <Card.Body>
-                <Card.Title></Card.Title>
-                  <Card.Text>
-                    This is some text inside a Bootstrap card. It appears next to the image. This is some text inside a Bootstrap card. It appears next to the image.This is some text inside a Bootstrap card. It appears next to the image.This is some text inside a Bootstrap card. It appears next to the image.This is some text inside a Bootstrap card. It appears next to the image.This is some text inside a Bootstrap card. It appears next to the image.This is some text inside a Bootstrap card. It appears next to the image.
-                  </Card.Text>
-              </Card.Body>
-            </Card>
-          </div>
-        </Col>
-
-      </Row>
 
 
 
@@ -103,6 +70,41 @@ const Portfolio = () => {
         <Col md={6}>
           <div className="rightside">
             <div className = "artTitle"> Gojo </div>
+            <Card className ="card">
+              <Card.Body>
+                <Card.Title></Card.Title>
+                  <Card.Text>
+                    This is some text inside a Bootstrap card. It appears next to the image. This is some text inside a Bootstrap card. It appears next to the image.This is some text inside a Bootstrap card. It appears next to the image.This is some text inside a Bootstrap card. It appears next to the image.This is some text inside a Bootstrap card. It appears next to the image.This is some text inside a Bootstrap card. It appears next to the image.This is some text inside a Bootstrap card. It appears next to the image.
+                  </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+        </Col>
+
+      </Row>
+
+      
+      <Row>
+      
+        <Col md={6}>
+          <div className="painting">
+            <img
+              src="LukeSkyWalker.PNG"
+              alt="Augustine Jacob"
+              style={{
+                width: "80%",    
+                height: "auto",
+                
+              }}
+            />
+            
+          </div>
+
+
+        </Col>
+        <Col md={6}>
+          <div className="rightside">
+            <div className = "artTitle"> Luke Skywalker </div>
             <Card className ="card">
               <Card.Body>
                 <Card.Title></Card.Title>
