@@ -11,7 +11,7 @@ import {
   FaGithub,
 } from "react-icons/fa";
 
-const HomePage = () => {
+const Contact = () => {
 
 
 
@@ -27,10 +27,10 @@ const HomePage = () => {
           
 
           <img
-            src="pfptest.png"
+            src="me.jpg"
             alt="Augustine Jacob"
             style={{
-              width: "50%",     // Change to desired size
+              width: "40%",     // Change to desired size
               height: "auto",
               
             }}
@@ -46,38 +46,34 @@ const HomePage = () => {
 
         {/* Right Side */}
         <div className="home-right">
-          <div className="Hello-title">Hello</div>
+          <div className="Hello-title"></div>
           
           <hr />
-          <div className="about-title">A Bit About Me</div>
+          <div className="about-title">Contact Me</div>
           <div className="about-desc">
-              
-            Wayne State University alumni with a B.E. in Computer Science. <br /> <br />
-            In my free time, I enjoy making things with my two hands. <br />
-            Whether that's painting, photography, software projects, or growing jalapenos. <br /><br />
-            I've always felt strongly in "Use it or Lose it". <br />Software engineering is a lifelong pursuit of knowledge. <br />
-            When you stop learning, you start falling behind. <br />
-            I am currently studying for the Comptia Network+ certification,<br /> developing this website, or learning game development.<br />
-            I'm always open to discussing my projects or an opportunity to work with you.<br /><br />
-            Feel free to reach out!
+              Hello! I see you've taken an interest in reaching out to me. <br /> <br />
+              I am most available to respond via my email at <b>AugustineJacobCareer@protonmail.com </b><br /><br />
+              Otherwise, shoot me a message on LinkedIn, I would love to chat with you connect! <br />
+
+           
             
           </div>
           <div className="btn-group">
-            <Link to="/portfolio">
+            <Link href="mailto:AugustineJacobCareer@protonmail.com">
               <Button variant="outline-dark">
-                Portfolio
+                Email
               </Button>
             </Link>
             <Link to="/portfolio">
               <Button variant="outline-dark">
-                Projects
+                LinkedIn 
               </Button>
             </Link>
             
             
           </div>
           
-
+            
           <div className="social-icons">
             <a href="https://www.instagram.com/kals_polaroids/" target="_blank" rel="noreferrer">
               <FaInstagram />
@@ -95,4 +91,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Contact;

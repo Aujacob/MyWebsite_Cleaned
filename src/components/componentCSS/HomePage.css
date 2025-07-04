@@ -108,11 +108,13 @@
 .btn-group {
   display: flex;
   gap: 1rem;
+  
   margin-bottom: 4rem;
   /* margin-top: 2rem; */
 }
 
 .social-icons a {
+  
   font-size: 1.4rem;
   color: black;
   margin-right: 1rem;

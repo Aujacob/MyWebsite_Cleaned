@@ -15,7 +15,9 @@ const NavigationBar = () => {
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
             <Nav.Link as={Link} to="/portfolio">Projects</Nav.Link>
-            <Nav.Link href="mailto:AugustineJacobCareer@protonmail.com">Contact</Nav.Link>
+            <Nav.Link  as={Link} to="/contact">Contact</Nav.Link>
+
+            {/* <Nav.Link href="mailto:AugustineJacobCareer@protonmail.com">Contact</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -22,7 +22,8 @@
   margin-top: 4%;
   min-height: 20vh;
   max-height: auto; 
-  max-width: 60vh;
+  max-width: 80vh;
+  min-width: 80vh;
   font-size: 1.4rem;
   background-color: #e5f1ff;
   
@@ -31,4 +32,5 @@
 .artTitle {
   font-size: 3rem;
   font-weight: 600;
+  color: rgb(0, 53, 153)
 }
