@@ -13,10 +13,6 @@ import {
 
 const HomePage = () => {
 
-
-
-
-
   return (
     <div>
       <NavigationBar />
@@ -88,6 +84,7 @@ const HomePage = () => {
             <a href="https://github.com/Aujacob?tab=repositories" target="_blank" rel="noreferrer">
               <FaGithub />
             </a>
+            
           </div>
         </div>
       </div>

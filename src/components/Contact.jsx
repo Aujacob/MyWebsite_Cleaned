@@ -59,11 +59,10 @@ const Contact = () => {
             
           </div>
           <div className="btn-group">
-            <Link href="mailto:AugustineJacobCareer@protonmail.com">
-              <Button variant="outline-dark">
-                Email
-              </Button>
-            </Link>
+            <a href="mailto:AugustineJacobCareer@protonmail.com">
+              <Button variant="outline-dark">Email Me</Button>
+            </a>
+
             <Link to="/portfolio">
               <Button variant="outline-dark">
                 LinkedIn 
