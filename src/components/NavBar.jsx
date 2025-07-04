@@ -14,10 +14,11 @@ const NavigationBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
-            <Nav.Link as={Link} to="/portfolio">Projects</Nav.Link>
+            
             <Nav.Link href="https://github.com/Aujacob?tab=repositories" target="_blank" rel="noreferrer">
               Projects
             </Nav.Link>
+            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
 
             {/* <Nav.Link href="mailto:AugustineJacobCareer@protonmail.com">Contact</Nav.Link> */}
           </Nav>
