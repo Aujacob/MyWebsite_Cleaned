@@ -1,9 +1,12 @@
 /* General layout */
 .homepage {
+
+
+  /* Just a warning, the max height value fucks with the page on phone displays */
   display: flex;
   min-height: 100vh;
   min-width: 100vw;
-  max-height: 100vh;
+  max-height: auto;
   max-width: 100vw;
   
   font-family: 'Helvetica Neue', sans-serif;
