@@ -9,6 +9,8 @@ const Portfolio = () => {
   return (
     <div className="portPage">
       <NavigationBar /> 
+
+      
       <Row>
       
         <Col md={6}>

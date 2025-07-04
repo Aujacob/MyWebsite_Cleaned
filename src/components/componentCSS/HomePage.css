@@ -2,6 +2,9 @@
 .homepage {
   display: flex;
   min-height: 100vh;
+  min-width: 100vw;
+  max-height: 100vh;
+  max-width: 100vw;
   
   font-family: 'Helvetica Neue', sans-serif;
   width: 100vw;
@@ -79,7 +82,7 @@
 
 .Hello-title{
   font-size: 5rem;
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
   transition: color 0.3s ease;
 }
 
@@ -91,12 +94,12 @@
 .about-title {
   font-size: 1.2rem;
   font-weight: bold;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 
 .about-desc {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.9;
   margin-bottom: 2rem;
   max-width: 500px;
@@ -105,8 +108,8 @@
 .btn-group {
   display: flex;
   gap: 1rem;
-  margin-bottom: 10rem;
-  margin-top: 2rem;
+  margin-bottom: 4rem;
+  /* margin-top: 2rem; */
 }
 
 .social-icons a {

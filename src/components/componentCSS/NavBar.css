@@ -2,18 +2,19 @@
 
 /* Entire Navbar background and shadow */
 .navbar {
-  min-height: 50px;
-  
+  min-height: 7vh;
+  max-height: 7vh;
   position:sticky;
   top: 0;
 }
 
 .custom-navbar {
   background-color: #deedff; /* or any color you want */
-  min-height: 50px;
+  min-height: 7vh;
+
   position:sticky;
   top: 0;
-  max-height: 50px;
+  max-height: 7vh;
   box-shadow: 0 2px 6px rgb(156, 183, 213, 0.3); /* optional for elevation */
 }
 
@@ -21,8 +22,8 @@
 .navbar-brand {
   
   font-weight: 700;
-  margin-left:-5rem;
-  margin-right: 50rem;
+  margin-left:-5vw;
+  margin-right: 55vw;
   
   font-size: 2.0rem;
   
@@ -40,7 +41,7 @@
   font-size: 1.2rem;
   font-weight: 600;
   color: #555 !important;
-  margin-right: 2rem;
+  margin-right: 1vw;
   transition: color 0.3s ease, transform 0.2s ease;
   
 }
