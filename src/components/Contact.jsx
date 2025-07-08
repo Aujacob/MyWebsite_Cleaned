@@ -63,11 +63,16 @@ const Contact = () => {
               <Button variant="outline-dark">Email Me</Button>
             </a>
 
-            <Link to="/portfolio">
+            <a
+              href="https://www.linkedin.com/in/augustinekaljacob/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button variant="outline-dark">
-                LinkedIn 
+                LinkedIn
               </Button>
-            </Link>
+            </a>
+
             
             
           </div>
