@@ -115,8 +115,8 @@ const Portfolio = () => {
               <Card.Body>
                 <Card.Title></Card.Title>
                   <Card.Text>
-                    After sitting down and watching, probably the greatest sequel in American Cinema, The Empire strikes Back, <br/>
-                    I felt inspired to paint. So I painted Luke Skywalker.
+                    After sitting down and watching, probably the greatest sequel in American Cinema, <b>The Empire strikes Back</b>, <br/>
+                    I felt inspired to paint.<br/> So I painted Luke Skywalker.
                   </Card.Text>
               </Card.Body>
             </Card>
