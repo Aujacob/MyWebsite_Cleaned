@@ -53,7 +53,7 @@ const Contact = () => {
           <div className="about-desc">
               Hello! I see you've taken an interest in reaching out to me. <br /> <br />
               I am most available to respond via my email at <b>AugustineJacobCareer@protonmail.com </b><br /><br />
-              Otherwise, shoot me a message on LinkedIn, I would love to chat with you connect! <br />
+              Otherwise, shoot me a message on LinkedIn,<br /> I would love to chat with you and connect! <br />
 
            
             
