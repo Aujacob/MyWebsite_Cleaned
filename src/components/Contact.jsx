@@ -27,7 +27,7 @@ const Contact = () => {
           
 
           <img
-            src="me.jpg"
+            src="me.webp"
             alt="Augustine Jacob"
             style={{
               width: "40%",     // Change to desired size

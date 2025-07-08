@@ -23,7 +23,7 @@ const HomePage = () => {
           
 
           <img
-            src="pfptest.png"
+            src="pfptest.webp"
             alt="Augustine Jacob"
             style={{
               width: "50%",     // Change to desired size
