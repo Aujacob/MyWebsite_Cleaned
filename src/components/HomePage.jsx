@@ -33,7 +33,7 @@ const HomePage = () => {
           />
           <div className="name">Augustine Jacob</div>
          
-          <div className="role"> <br/>Skier / Artist</div>
+          <div className="role"> <br/>Software Sales / Artist</div>
 
           <div className="location"> Metro Detroit</div>
 
@@ -48,13 +48,12 @@ const HomePage = () => {
           <div className="about-title">A Bit About Me</div>
           <div className="about-desc">
               
-            Wayne State University graduate with a B.E. in Computer Science, <br />
-            but now pivoted to sales for a software company.   <br />
+            Wayne State University graduate with a B.S. in Computer Science. <br /> <br />
+            Always preferred pitching software to clients rather than coding it myself.   <br />
             My technical background gives me a genuine edge in understanding what customers need and how software actually solves their problems. <br /><br />
             In my free time, I enjoy making things with my two hands. <br></br>
-            Whether that's painting, restoring old game consoles, software projects, growing jalapenos, or developing this website.<br />
-            I'm always open to discussing my projects with you.<br /><br />
-            Feel free to reach out!
+            Whether that's painting, restoring old game consoles, skiing, growing jalapenos, or developing this website.<br />
+            <br/>I'm always open to discussing my projects so feel free to reach out!
             
           </div>
           <div className="btn-group">
@@ -74,9 +73,9 @@ const HomePage = () => {
           
 
           <div className="social-icons">
-            <a href="https://www.instagram.com/kals_polaroids/" target="_blank" rel="noreferrer">
+            {/* <a href="https://www.instagram.com/kals_polaroids/" target="_blank" rel="noreferrer">
               <FaInstagram />
-            </a>
+            </a> */}
             <a href="https://www.linkedin.com/in/augustinekaljacob/" target="_blank" rel="noreferrer">
               <FaLinkedin />
             </a>

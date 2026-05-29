@@ -37,7 +37,7 @@ const Contact = () => {
           />
           <div className="name">Augustine Jacob</div>
          
-          <div className="role"> <br/>Software Engineer / Artist</div>
+          <div className="role"> <br/>Software Sales / Artist</div>
 
           <div className="location"> Metro Detroit</div>
 
@@ -52,8 +52,8 @@ const Contact = () => {
           <div className="about-title">Contact Me</div>
           <div className="about-desc">
               Hello! I see you've taken an interest in reaching out to me. <br /> <br />
-              I am most available to respond via my email at <b>AugustineJacobCareer@protonmail.com </b><br /><br />
-              Otherwise, shoot me a message on LinkedIn,<br /> I would love to chat with you and connect! <br />
+              I am most available to be reached via my email at <b>AugustineJacobCareer@protonmail.com </b><br /><br />
+              Otherwise, shoot me a message on LinkedIn,<br /> I would love to chat with you and connect <br />
 
            
             
@@ -79,9 +79,9 @@ const Contact = () => {
           
             
           <div className="social-icons">
-            <a href="https://www.instagram.com/kals_polaroids/" target="_blank" rel="noreferrer">
+           {/*  <a href="https://www.instagram.com/kals_polaroids/" target="_blank" rel="noreferrer">
               <FaInstagram />
-            </a>
+            </a> */}
             <a href="https://www.linkedin.com/in/augustinekaljacob/" target="_blank" rel="noreferrer">
               <FaLinkedin />
             </a>

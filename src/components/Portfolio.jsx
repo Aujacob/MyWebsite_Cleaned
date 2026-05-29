@@ -79,7 +79,7 @@ const Portfolio = () => {
               <Card.Body>
                 <Card.Title></Card.Title>
                   <Card.Text> This piece started as a tutorial for my friends on how to draw a certain animated character, 
-                    but soon I asked myself <br/><b>"what I turned it into pointallism?" </b><br/>
+                    but soon I asked myself <br/><b>"what if I turned it into pointillism?" </b><br/>
                     and then I spent the next few nights on this,<br/> meticulously making dots until it felt complete.
                   </Card.Text>
               </Card.Body>
