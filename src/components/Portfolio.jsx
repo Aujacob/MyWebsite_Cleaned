@@ -16,7 +16,7 @@ const Portfolio = () => {
         <Col md={6}>
           <div className="painting">
             <img
-              src="pom2.webp"
+              src="pomeg.webp"
               alt="Augustine Jacob"
               style={{
                 width: "80%",    
