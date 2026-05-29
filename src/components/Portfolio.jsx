@@ -38,8 +38,8 @@ const Portfolio = () => {
                   <Card.Text>
                     Polygonal Pomegranate is an acrylic painting I've been working on for the past 6 months.
                      I started this with a strong desire to paint a pomegranate. Halfway through, somebody asked me why the pom looked like that. <br/>
-                     <b>"Pomegranates aren't polygons!"</b>
-                     <br/>But then I asked myself, <br/><b>"What's wrong with a Polygonal Pomegranate?" </b> <br/>
+                     <b>"Pomegranates aren't polygons..."</b>
+                     <br/>But then I asked myself, <br/><b>"What's wrong with a 'Polygonal Pomegranate'?" </b> <br/>
                      It's still a work in progress. The painting is finished when I feel satisfied by
                        what I see.
                   </Card.Text>
@@ -115,7 +115,7 @@ const Portfolio = () => {
               <Card.Body>
                 <Card.Title></Card.Title>
                   <Card.Text>
-                    After sitting down and watching, probably the greatest sequel in American Cinema, <b>The Empire strikes Back</b>, <br/>
+                    After sitting down and watching the greatest sequel in American Cinema, <b>The Empire strikes Back</b>, <br/>
                     I felt inspired to paint.<br/> So I painted Luke Skywalker.
                   </Card.Text>
               </Card.Body>
